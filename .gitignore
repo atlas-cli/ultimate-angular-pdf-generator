@@ -8,8 +8,12 @@
 
 # Node
 /node_modules
+/server/node_modules
 npm-debug.log
 yarn-error.log
+
+# cdk
+cdk.out
 
 # IDEs and editors
 .idea/
