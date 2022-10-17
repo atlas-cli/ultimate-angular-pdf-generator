@@ -51,7 +51,7 @@ export class PuppeteerServiceStack extends Stack {
         });
 
         const items = api.root.addResource('{proxy+}');
-        items.addMethod('ANY', httpIntegration);
+        items.addMethod('POST', httpIntegration);
         addCorsOptions(items);
     }
 }
